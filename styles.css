@@ -1,0 +1,242 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: rgb(205, 205, 205);
+      color: #222;
+      line-height: 1.6;
+    }
+
+
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(80, 160, 170);
+      padding: 15px 30px;
+      border-radius: 0 0 15px 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .robotlogo {
+      width: 80px;
+      border-radius: 10px;
+    }
+
+
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+
+    .search input {
+      padding: 8px 12px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      width: 180px;
+    }
+
+
+    .search button {
+      background-color: white;
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+
+    .search button:hover {
+      background-color: #e0e0e0;
+    }
+
+
+    .sidebar {
+      font-weight: 600;
+      color: white;
+    }
+
+
+    /* MAIN SECTION */
+    .main-images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px 20px;
+    }
+
+
+    .img-box {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      width: 320px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+
+    .img-box:hover {
+      transform: translateY(-4px);
+    }
+
+
+    .img-box img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+
+    /* INFO SECTION */
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: rgb(80, 160, 170);
+      padding: 40px 20px;
+      border-radius: 12px;
+      margin: 30px auto;
+      width: 90%;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+
+    .description {
+      width: 65%;
+      font-size: 18px;
+    }
+
+
+    .cute-img {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .cute-img img {
+      width: 180px;
+      border-radius: 10px;
+    }
+
+
+    /* COMPONENTES */
+    .components {
+      text-align: center;
+      margin: 50px auto;
+      width: 90%;
+    }
+
+
+    .components h2 {
+      font-size: 28px;
+      color: rgb(60, 120, 130);
+      margin-bottom: 25px;
+    }
+
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+
+    .component img {
+      width: 100%;
+      max-width: 160px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+
+    .component img:hover {
+      transform: scale(1.05);
+    }
+
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      margin: 60px 0 40px;
+      color: black;
+    }
+
+
+    .cta p {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+
+    .cta button {
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      background-color: rgb(80, 160, 170);
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+
+    .cta button:hover {
+      transform: scale(1.05);
+      background-color: rgb(65, 130, 140);
+    }
+
+
+    /* FOOTER */
+    .footer {
+      background-color: rgb(80, 160, 170);
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      border-radius: 15px 15px 0 0;
+      box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+    }
+
+
+    .footer p {
+      line-height: 1.8;
+      font-size: 15px;
+    }
+
+
+    .description {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+
+      .cute-img {
+        width: 100%;
+      }
+
+
+      .cute-img img {
+        width: 150px;
+      }
